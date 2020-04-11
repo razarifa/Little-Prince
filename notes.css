@@ -1,0 +1,91 @@
+       body {
+           background-color: #D6ECE6;
+           background-size: 400px;
+           background-repeat: repeat;
+           scroll-behavior: smooth;
+       }
+       
+       .button-container {
+           font-size: 3rem;
+           color: rgb(22, 82, 82);
+           font-weight: 100;
+           cursor: pointer;
+           font-family: 'Dancing Script', cursive;
+           transition: all .500s;
+           /* color: rgb(126, 177, 26); */
+           color: rgb(27, 27, 56);
+       }
+       
+       .button-container:hover {
+           letter-spacing: 1px;
+           text-shadow: 2px 3px 1px #CCCCCC;
+       }
+       
+       .fa-remove {
+           transition: all .500s;
+       }
+       
+       .fa-remove:hover {
+           color: #EE5E2A;
+           transform: scale(0.6) rotate(180deg);
+       }
+       
+       .note {
+           background-color: rgba(46, 139, 87, .9);
+           transition: all 0.5s 0s ease;
+           color: white;
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: 100;
+           font-style: oblique;
+           transition: all .500s;
+       }
+       
+       .note:hover {
+           cursor: pointer;
+           background-color: rgba(46, 139, 87, 1);
+           /* letter-spacing: 1px; */
+       }
+       
+       .note-count {
+           display: inline-block;
+           background-image: url('./1.png');
+           background-size: cover;
+           color: #6BCA53;
+           font-weight: 800;
+       }
+       
+       .sticky-img {
+           position: sticky;
+           top: 0;
+           left: 100%;
+           height: 97vh;
+       }
+       
+       .sticky-img-left {
+           position: sticky;
+           top: 0;
+           left: 0;
+           height: 96vh;
+       }
+       
+       .popup-container {
+           position: absolute;
+           top: 0;
+           left: 0;
+           background-color: rgba(255, 115, 0, 0.7);
+           height: 108vh;
+           width: 1000px;
+       }
+       
+       .popup-btn {
+           color: yellow;
+       }
+       
+       .popup {
+           background-color: #34a6aa;
+       }
+       
+       .popup .popup-title {
+           color: white;
+           font-weight: 100;
+       }
